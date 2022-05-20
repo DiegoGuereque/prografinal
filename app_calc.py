@@ -5,7 +5,7 @@ st.image('verduras.gif')
 
 minutos = st.number_input('Ingresa cuántos minutos de ejercicio realizaste',0,10000)
 
-ejercicio = st.selectbox('Selecciona el ejercicio que realizaste',('Levantamiento de pesas','Aerobics','Yoga','Boxeo','Ciclismo','Calistenia','Circuito','Billar','Fútbol','Voleibol','Basketball','Natación','Bailar','Caminar (6.5 km/h)','Correr','Dormir','Ver TV','Leer un libro','Cocinar','Cuidar niños','Estar sentado en clase'))
+ejercicio = st.selectbox('Selecciona el ejercicio que realizaste',('Levantamiento de pesas','Aerobics','Yoga','Boxeo','Ciclismo','Calistenia','Circuito','Fútbol','Voleibol','Basketball','Natación','Bailar','Caminar (6.5 km/h)','Correr','Dormir','Ver TV','Leer un libro','Cocinar','Cuidar niños','Estar sentado en clase'))
 
 if ejercicio == 'Levantamiento de pesas':
   calorias=112
@@ -21,8 +21,6 @@ if ejercicio=='Ciclismo':
   calorias=391
 if ejercicio=='Calistenia':
   calorias=298
-if ejercicio=='Billar':
-  calorias==93
 if ejercicio=='Voleibol':
   calorias=112
 if ejercicio=='Basketball':
