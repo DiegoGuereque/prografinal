@@ -25,7 +25,7 @@ if ejercicio=='Voleibol':
   calorias=112
 if ejercicio=='Basketball':
   calorias=298
-if ejercicio=='Natacion':
+if ejercicio=='Natación':
   calorias=223
 if ejercicio=='Bailar':
   calorias=205
